@@ -1,0 +1,24 @@
+{{>header}}
+{{>navbar}}
+<section class="container my-4">
+    <h3 class="text-center text-primary my-3">Add New Customer</h3>
+    <form method="get" action="/addLogic"> 
+      
+        <div class="mb-3">
+            <input type="text" name="name" class="form-control" placeholder="Name">
+        </div>
+        <div class="mb-3">
+            <input type="number" name="accNum" class="form-control" placeholder="Account Number">
+        </div>
+        <div class="mb-3">
+            <input type="number" name="balance" class="form-control" placeholder="Balance">
+        </div>
+
+
+        <div class="mb-3">
+            <button class="btn btn-primary">Add Customer</button>
+        </div>
+
+    </form>
+</section>
+{{>footer}}
